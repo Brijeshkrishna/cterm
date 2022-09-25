@@ -1,7 +1,13 @@
 # ctrem 
 ### print colored and styled text
 
-## Examples
+
+## CLI Examples
+```bash
+$ctrem "[bold]H[/bold]ello"
+```
+
+## Rust Example
 ```rust
 extern crate ctrem;
 
@@ -34,7 +40,7 @@ Available colors
 
 foreground is default , for background use ' `*` '
 
-## Examples
+## Rust Example Colors
 
 ```rust
 extern crate ctrem;

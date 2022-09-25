@@ -116,7 +116,7 @@ fn cleaner(val: &String) -> String {
 /// ```rust
 /// print("[bold][blink][red]Hello[red][/blink], world[*blue]![/*blue][/bold]") 
 /// ```
-pub fn print(val: &str) {
+pub fn print(val: &str,debug:bool) {
     let mut rv: String = val.to_string().clone();
     let mut codes_stack: Vec<u8> = vec![];
     let ure = Regex::new(r"(\[ ?*+[^\[]* ?\])").unwrap();
@@ -150,5 +150,11 @@ pub fn print(val: &str) {
             }
         };
     }
-    println!("{}", cleaner(&rv))
+    if debug{
+        println!(r"{:?}", cleaner(&rv))
+    }
+    else {
+        println!("{}", cleaner(&rv))
+    }
+    
 }
