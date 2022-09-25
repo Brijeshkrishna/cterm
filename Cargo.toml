@@ -1,13 +1,13 @@
 [package]
 name = "ctrem"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 authors=["brijesh"]
 description="Print colored and styled text"
 license = "MIT"
 readme="README.md"
-documentation="https://github.com/brijeshkrishna/ctrem"
-homepage="https://github.com/brijeshkrishna/ctrem"
+documentation="https://github.com/Brijeshkrishna/cterm"
+homepage="https://github.com/Brijeshkrishna/cterm"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 

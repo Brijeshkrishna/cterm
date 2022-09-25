@@ -97,9 +97,8 @@ fn cleaner(val: &String) -> String {
 /// - normal 
 /// - reverse 
 /// - strike
-
+/// 
 /// Available colors
-
 /// - black
 /// - red
 /// - green
