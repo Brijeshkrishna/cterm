@@ -1,21 +1,21 @@
 [package]
 name = "ctrem"
-version = "0.1.2"
+version = "0.1.3"
 edition = "2021"
 authors=["brijesh"]
 description="Print colored and styled text"
 license = "MIT"
 readme="README.md"
-documentation="https://github.com/Brijeshkrishna/cterm"
+documentation="https://docs.rs/ctrem/0.1.3/ctrem/index.html"
 homepage="https://github.com/Brijeshkrishna/cterm"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
 regex="1.6.0"
+lazy_static = "1.4.0"
 
 
 [profile.release]
 strip=true
 lto=true
-codegen-units=1
